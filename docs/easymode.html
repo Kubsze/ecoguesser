@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EcoGuesser</title>
+        <meta name="description" content="A website that helps educate">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/layout.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="title">EcoGuesser</h1>
+            <h2 class="subtitle1">EASYMODE</h2>
+            <div class="imagecontainer"><img src="" id="Image" class="image"></div>
+            <div class="slidecontainer">
+                <input type="range" class="slider" id="myRange"> 
+            </div>
+            <div class="buttoncontainer"><button onclick="checkAnswer()" class="button1">GUESS</button></div>
+            <p class="valuetext">Value: <span id="demo"></span></p>
+            <div class="timer">TIME: <span id="timer">20</span></div>
+            <div class="score">SCORE: <span id="score">0</span></div>
+        </div>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html> 
