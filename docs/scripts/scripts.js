@@ -52,7 +52,7 @@ function randomizeImage(){
     restartTimer();
 }
 
-var timeRemain = 20;
+var timeRemain = 30;
 var timer = document.getElementById("timer");
 
 function countDownTimer(){
