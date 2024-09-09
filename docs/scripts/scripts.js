@@ -61,7 +61,7 @@ function countDownTimer(){
     if (timeRemain == 0){
         clearInterval(timerInterval);
         window.alert("Time's up!");
-        window.location.href = "http://localhost:8080/index.html";
+        window.location.href = "index.html";
         randomizeImage();
     }
 }
