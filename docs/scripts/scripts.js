@@ -69,8 +69,8 @@ function countDownTimer(){
 function restartTimer(){
     clearInterval(timerInterval);
     timerInterval = setInterval(countDownTimer, 1000);
-    timeRemain = 20;
-    timer.innerHTML = 20;
+    timeRemain = 30;
+    timer.innerHTML = 30;
 }
 
 timerInterval = setInterval(countDownTimer, 1000);
