@@ -44,7 +44,7 @@ function countDownTimer() {
         clearInterval(timerInterval);
         window.alert("Time's up! Final Score: " + score);
         randomizeImage();
-        window.location.href = "index.html";
+        document.location="index.html";
     }
 }
  
