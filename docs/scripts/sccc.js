@@ -1,5 +1,5 @@
 var image = document.getElementById("Image");
-const images =      ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "13.png"];
+const images =      ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp", "8.webp", "9.webp", "10.webp", "11.webp", "12.webp", "13.webp"];
 const imageVals =    [200,      183,      86,      90000,      1300,      200000,      4,      1,      1,      5000,       846,       130000,       900000];
  
 var rndNr = Math.floor(Math.random() * 13);
